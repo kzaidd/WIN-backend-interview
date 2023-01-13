@@ -25,6 +25,12 @@
 - Server uses routers for different HTTP methods like GET, POST, PUT and DELETE.
 - Contains 2 get methods 1 for acccessing single document and other for all the documents.
 - Update or Creating an order would require 3 hours of cooldown from the previous one.
+
+## How it works!
+- Getting all the orders would require calling a GET method which would give out all the orders without any filteration.
+- Creating an Order requires POST method with JSON body to be sent via request.
+- Updating an Order requires PUT method with '_id_' of that specific order with fields requiring to be updated. Note - This does not cannot multiple updates at once.
+- Deleting also requires '_id_" to delete a specific order. 
 - 
 
 ### Web Service
