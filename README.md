@@ -42,5 +42,5 @@
 - Database layer
 
 ## USAGE
-- Use "http://localhost:40000/_api_". Change base url accordingly.
+- Use "http://localhost:40000/api" . Change base url accordingly.
 - 
