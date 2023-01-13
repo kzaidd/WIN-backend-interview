@@ -2,18 +2,23 @@
 
 ## Language Used
 
-JavaScript
+- JavaScript
 
 ## Frameworks used
 
-Nodejs, ExpressJs
+- Express.Js
 
-### General
+##Runtime
 
-- Please use either **JavaScript/TypeScript or Python**.
-- You may use any framework, such as a web framework or test framework, to help you complete the project.
-- You may store the data for this system in any database you choose, however we've included a Docker image loaded with Postgres in this repo.
-- You may model the data any way you'd like, including adding data beyond the samples provided.
+- Node.Js
+
+## How to setup the project
+
+- Clone this repo
+- Use "npm i" or "npm install" to install all the required packages.
+- Use "npm start" to start the server.
+- Extra --
+- Change scripts to "nodemon index.js" from "node index.js" to use nodemon in package.json.
 
 ### Web Service
 
