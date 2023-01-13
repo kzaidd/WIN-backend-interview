@@ -18,7 +18,7 @@
 - Use "npm i" or "npm install" to install all the required packages.
 - Use "npm start" to start the server.
 - Extra --
-- Change scripts to "nodemon index.js" from "node index.js" to use nodemon in package.json.
+- Change scripts > start to "nodemon index.js" from "node index.js" to use nodemon in package.json.
 
 ## Overview of the solution
 - Used mongoose library to manage data and define schema. 
