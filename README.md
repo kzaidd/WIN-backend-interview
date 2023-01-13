@@ -45,7 +45,8 @@
 - Use "http://localhost:40000/api" . Change base url accordingly.
 - GET method would require just the URL above to access all the orders. Add mongo "_id_" after "/api" to get specific results for e.g. "http://localhost:40000/api/_id".
 - Post method would require json object same as a the schema to create an order 
- for e.g. ```json -
+ for e.g. 
+ ```json -
  {
     "totalFee" : 47657320,
     "services":[ {
@@ -56,4 +57,12 @@
     "phoneNumber": "999999999",
     "countryCode": "91",
 }
- ``
+ ```
+- For updating an order state mongo "_id_" and field to update like 
+``` json 
+{
+ "id" : 632342491271qeq14,
+ "name": "newCustomer2"
+ }
+ ```
+ - Deleting an order would only require to pass mongo "_id_" using json body.
