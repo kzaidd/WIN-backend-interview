@@ -1,15 +1,12 @@
 # WIN Backend Engineering Interview
 
-## Scenario
+## Language Used
 
-Your mission is to build a portion of an order management system. You need to provide a service that allows other systems and teams to obtain information about orders.
+JavaScript
 
-## Deliverables
+## Frameworks used
 
-There are two deliverables for this project:
-
-1. An internal web service API for managing orders
-2. A test suite to validate the web service and library work as expected
+Nodejs, ExpressJs
 
 ### General
 
