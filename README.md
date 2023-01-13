@@ -26,12 +26,21 @@
 - Contains 2 get methods 1 for acccessing single document and other for all the documents.
 - Update or Creating an order would require 3 hours of cooldown from the previous one.
 
+
 ## How it works!
-- Getting all the orders would require calling a GET method which would give out all the orders without any filteration.
+- Getting all the orders would require calling a GET method which would give out all the orders without any filteration. 'Mongo _id_' is required to get specific order.
 - Creating an Order requires POST method with JSON body to be sent via request.
 - Updating an Order requires PUT method with 'mongo _id_' of that specific order with fields requiring to be updated. Note - This does not cannot multiple updates at once.
 - Deleting also requires 'mongo _id_' to delete a specific order. 
-- 
+-
+
+## Changes to be made for production
+- More mongo fields for justifying the requirements/needs of and order.
+- jwt authorization, Login authentication to access database. 
+- Multiple mongo schemas for mapping of the order.
+- Add filters like date, more recent, unfulfilled orders instead of getting all the data at once.
+- Database layer
+
 
 ### Web Service
 
