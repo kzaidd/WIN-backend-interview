@@ -20,6 +20,13 @@
 - Extra --
 - Change scripts to "nodemon index.js" from "node index.js" to use nodemon in package.json.
 
+## Overview of the solution
+- Used mongoose library to manage data and define schema. 
+- Server uses routers for different HTTP methods like GET, POST, PUT and DELETE.
+- Contains 2 get methods 1 for acccessing single document and other for all the documents.
+- Update or Creating an order would require 3 hours of cooldown from the previous one.
+- 
+
 ### Web Service
 
 - Your service should implement several endpoints that accept POST, GET, PUT and DELETE requests. Also 1 endpoint that accepts GET all orders.
