@@ -58,11 +58,10 @@
     "countryCode": "91",
 }
  ```
-- For updating an order state mongo "_id_" and field to update like 
+- For updating an order state mongo "_id_" would be needed in url params and fields which needs to be updatedin json body.
 ``` json 
 {
- "id" : 632342491271qeq14,
  "name": "newCustomer2"
  }
  ```
- - Deleting an order would only require to pass mongo "_id_" using json body.
+ - Deleting an order would only require to pass mongo "_id_" url param.
