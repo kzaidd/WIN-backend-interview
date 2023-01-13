@@ -43,4 +43,17 @@
 
 ## USAGE
 - Use "http://localhost:40000/api" . Change base url accordingly.
-- 
+- GET method would require just the URL above to access all the orders. Add mongo "_id_" after "/api" to get specific results for e.g. "http://localhost:40000/api/_id".
+- Post method would require json object same as a the schema to create an order 
+ for e.g. ```json -
+ {
+    "totalFee" : 47657320,
+    "services":[ {
+        "id": "230"
+        }
+    ],
+    "customerName": "customer1",
+    "phoneNumber": "999999999",
+    "countryCode": "91",
+}
+ ``
